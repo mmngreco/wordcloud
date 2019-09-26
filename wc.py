@@ -33,6 +33,12 @@ def plot_wordcloud(show=False):
 
 def main(n):
     global i, wc
+
+    try:
+        build = Path("build").mkdir()
+    except FileExistsError:
+        pass
+
     i = 0
     clist = [
         (0.2, 0.0, 0.4),
@@ -68,6 +74,6 @@ if __name__ == "__main__":
     import sys
     try:
         n = int(sys.argv[1])
-    except:
+    except IndexError:
         n = 5
     main(n=n)
