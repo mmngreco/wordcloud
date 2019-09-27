@@ -1,0 +1,18 @@
+# Install
+
+```bash
+git clone https://github.com/mmngreco/wordcloud.git
+cd wordcloud
+```
+
+# Examples of use
+
+Simply run:
+
+```bash
+python main.py     # by default make 5 images
+python main.py 10  # you can specify the number of images
+```
+
+Images will be stored in `build` folder.
+
