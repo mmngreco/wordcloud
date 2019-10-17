@@ -11,7 +11,7 @@ pip install -r requirements.txt
 Simply run:
 
 ```bash
-python main.py     # by default make 5 images
+python main.py     # by default it makes 5 images
 python main.py 10  # you can specify the number of images
 ```
 
