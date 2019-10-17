@@ -3,6 +3,7 @@
 ```bash
 git clone https://github.com/mmngreco/wordcloud.git
 cd wordcloud
+pip install -r requirements.txt
 ```
 
 # Examples of use
