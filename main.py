@@ -67,7 +67,7 @@ def main(n):
     )
     wc = wordcloud.generate(text)
 
-    for j in range(n):
+    for _ in range(n):
         plot_wordcloud()
 
 if __name__ == "__main__":
